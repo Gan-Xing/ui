@@ -7,7 +7,7 @@ Welcome to ui, a comprehensive collection of personal ui components and hooks by
 1.**Clone the repository**
 
 ```bash
-git clone <https://github.com/Gan-Xing/utils.git>
+git clone <https://github.com/Gan-Xing/ui.git>
 cd utils
 ```
 
