@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A comprehensive collection of personal ui components and hooks by Gan-Xing.",
   "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.es.js",
   "unpkg": "dist/index.umd.js",
   "browser": "dist/index.umd.js",
   "types": "dist/index.d.ts",
