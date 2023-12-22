@@ -16,7 +16,7 @@
     "generate-packages": "node generate-packages.js",
     "commit": "git-cz",
     "test": "jest --coverage",
-    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --no-ignore",
     "format": "prettier --write 'src/**/*.{ts,tsx}'",
     "check-format": "prettier --check 'src/**/*.{ts,tsx}'",
     "clean": "rimraf dist/esm dist/cjs",
