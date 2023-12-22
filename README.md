@@ -1,22 +1,27 @@
-# ganxing
+# UI
 
-## Languages
-
-- [English](README.md)
-- [中文](README.zh.md)
-
-Welcome to ganxing, a comprehensive collection of personal programming utilities and components by Gan-Xing. This project is designed to be a versatile toolkit for various development needs, encompassing testing, linting, formatting, and documentation generation.
+Welcome to ui, a comprehensive collection of personal ui components and hooks by Gan-Xing. This project is designed to be a versatile toolkit for various development needs, encompassing testing, linting, formatting, and documentation generation.
 
 ## Getting Started
 
 1.**Clone the repository**
 
 ```bash
-git clone <https://github.com/Gan-Xing/ganxing.git>
-cd ganxing
+git clone <https://github.com/Gan-Xing/utils.git>
+cd utils
 ```
 
-2.**Install the dependencies**
+2.**Set up for standalone use**
+
+If you plan to use utils outside the Turborepo environment, you'll need to replace the existing package.json with package.jsonc, which includes the necessary development dependencies.
+
+```bash
+pnpm run setup
+```
+
+This will copy packagedev.json to package.json, ensuring that all development dependencies are available.
+
+3.**Install the dependencies**
 
 Make sure you have Node.js (v18.0.0 or newer) and npm (v8.0.0 or newer) installed. This project recommends using pnpm for managing dependencies, although npm or yarn would work just fine.
 

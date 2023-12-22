@@ -7,8 +7,8 @@ export default defineConfig({
     lib: {
       entry: "src/index.ts",
       name: "@ganxing/ui",
-      formats: ['es', 'umd', 'cjs'],
-      fileName: (format) => `index.${format}.js`
+      formats: ["es", "umd", "cjs"],
+      fileName: (format) => `index.${format}.js`,
     },
-  }
+  },
 });
